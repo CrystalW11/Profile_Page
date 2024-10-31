@@ -1,0 +1,257 @@
+* {
+    margin:0;
+    padding:0;
+    /* border:dashed 2px red; */
+
+}
+
+.header{
+    background-color:darksalmon;
+    color:whitesmoke;
+    height:80px;
+    padding-bottom: 10px;
+    margin-inline-start: 20px;
+    padding-top: 40px;
+    font-size: larger;
+    font-stretch: expanded;
+    font-weight: 600;
+    border-radius: 10px;
+    border:5px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+h1 {
+    padding-left: 70px;
+    align-items: center;
+    font-weight: 500;
+    font-style: oblique;
+    padding-top: -60px;
+}
+
+.button {
+    background-color:lightgray;
+    border:5px solid cadetblue;
+    display: flex;
+    height: auto;
+    width:auto;
+    border-radius: 10px;
+    color:black;
+    font-size: small;
+    font-style: oblique;
+    font-weight: 600;
+    align-items: center;
+    margin-block: 15px;
+}
+
+.container {
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 70px;
+}
+
+.container-2 {
+    padding-left: 75px;
+    border-color: 2px darkgray;
+    display: flex;
+    height:500px;
+    display: flex;
+    margin-left: -35px;
+}
+
+.user-card-banner {
+    background-color: darksalmon;
+    border-radius: 10px;
+    width: 600px;
+    height: 80px;
+    justify-content: space-between;
+    border:5px solid lightgray;
+}
+
+h2,h4 {
+    margin-left: 50px;
+    margin-top: 250;
+    justify-content: space-evenly;
+    height: -10px;
+    font-weight:800;
+}
+
+h3 {
+color: darkgray;
+margin-left: 50px;
+margin-top: 250;
+height: -10px;
+}
+
+.user-card {
+    height: 350px;
+    width: 600px;;
+    border:5px solid darkgray;
+    border-radius: 10px;
+    margin-left: -5px;
+    margin-top: 80px;
+    border-color: lightgray;
+}
+
+.div.containter {
+    background-color: darksalmon;
+    height: 250px;
+    width: 100px;
+    border:5px solid darkgray;
+    display: flex;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.friend-pics {
+    border:5px solid darkgray;
+    border-radius: 50%;
+    margin-inline-start: 40px;
+    align-items: center;
+    border-color: 2px lightgrey;
+    height:40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    border:5px solid darkgray;
+    border-radius: 50%;
+    align-items: center;
+    height:70px;
+    width: 70px;
+    margin-top: -50px;
+}
+
+p {
+    font-size: smaller;
+    font-family: sans-serif;
+    height: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.education-banner {
+    background-color: darksalmon;
+    border: 1px solid;
+    width:600px;
+    height:30px;
+    margin-left: 40px;
+    border:5px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.education {
+    padding-top: 15px;
+    border:5px solid lightgrey;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.symbols, .accept-circle, .close-circle {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    margin-left: 85px;
+    margin-inline-start: 40px;
+    justify-content:space-between;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+    margin-left: 85px;
+    margin-inline-start: 10px;
+    justify-content:space-between;
+}
+
+.map-marker {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+    margin-left: 85px;
+    margin-inline-start: 10px;
+    margin-top: 20px;
+}
+
+
+.banner1 {
+    background-color: darksalmon;
+    color:black;
+    height: 30px;
+    width: 310px;
+    border:5px solid darkgrey;
+    border-radius: 10px;
+    margin-left: 680px;
+    margin-top: -430px;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.banner2 { 
+    background-color: darksalmon;
+    color:black;
+    height: 30px;
+    width: 310px;
+    text-align: center;
+    border:5px solid darkgray;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 680px;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.details-box {
+    margin-left: 1000px;
+    margin-top: 50;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.col-1 {
+    height: 150px;
+    width:310px;
+    margin-left: 680px;
+    background-color: lightgray;
+    align-content: first baseline;
+    border-radius: 10px;
+    border:5px solid lightgrey;
+    align-items: center;
+    display: block;
+        
+
+}
+.col-2 {
+    height: 350px;
+    width:310px;
+    margin-left: 680px;
+    background-color: lightgray;
+    align-content: first baseline;
+    border-radius: 10px;
+    border:5px solid lightgrey;
+}
+
+.view-more {
+    width: 10px;
+    margin-left: 800px;
+    margin-top: -50px;
+
+}
+

@@ -1,0 +1,311 @@
+.header{
+    background-color:darksalmon;
+    color:whitesmoke;
+    height:80px;
+    padding-bottom: 30px;
+    font-size: larger;
+    font-stretch: expanded;
+    font-weight: 600;
+    border-radius: 10px;
+    border:5px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+h1 {
+    padding-left: 70px;
+    align-items: center;
+    font-weight: 500;
+    font-style: oblique;
+}
+h2 {
+    align-items: right;
+    margin-left: 80px;
+    margin-top: -5px;
+    float: 20px;
+}
+
+p {
+    align-items: flex-start;
+    align-content: bottom;
+    padding-top: 30px;
+    justify-content: right;
+    margin-left: 50px;
+}
+.button {
+    background-color:lightgray;
+    border:5px solid cadetblue;
+    display: flex;
+    height: auto;
+    width:auto;
+    border-radius: 10px;
+    color:black;
+    font-size: small;
+    font-style: oblique;
+    font-weight: 600;
+    align-items: center;
+    margin-block: 15px;
+}
+
+
+
+p {
+    font-size: large;
+    font-family: sans-serif;
+    height: 20px;
+    margin-bottom: -30px;
+}
+
+.div.user-card-banner {
+    border:5px solid cadetblue;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 50px;
+}
+
+
+
+.user-card-banner {
+    height: 60px;
+    width: 700px;
+    border:5px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 150px;
+    background-color: darksalmon;
+}
+
+.user-card {
+    height: 300px;
+    width: 700px;
+    border:5px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.profile-pic {
+    border-radius: 50%;
+    margin-inline-start: 40;
+    border:5px solid darkgray;
+    margin-top: -120px;                     
+    align-items: center;
+    display: flex;
+}
+.marker-map {
+    float:right 20px;
+    margin-left: 40px;
+
+}
+.gear-image {
+    float:right 20px;
+    margin-left: 10px;
+    padding-bottom: -50px;
+}
+
+.education {
+    display: flex;
+    background-color: darksalmon;
+    color: black;
+    height:40px;
+    width: 700px;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    border-radius: 10px;
+    padding: -25%;
+    margin-left: 150px;
+    justify-content: left;
+    margin-top: 50px;
+    text-align: left;
+    font-size: larger;
+}
+    
+.education-list { 
+    width: 715px;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    border-radius: 10px;
+    padding: -25%;
+    margin-left: -90px;
+    justify-content: left;
+    margin-top: 40px;
+    text-align: left;
+    font-size: larger;
+    display: flex;
+    background-color: darksalmon;
+    color: black;
+    height:200px;
+    width: 700px;
+}
+
+h4 {
+    display: flex;
+    height:200px;
+    width: 730px;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    border-radius: 10px;
+    padding: -15%;
+    margin-left: -89px;
+    justify-content: left;
+    margin-top: 42px;
+    text-align: left;
+    font-size: larger;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+    
+.row {
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    border-radius: 10px;
+    margin-left: 850px;
+    /* margin-top: 500; */
+    width: 200px;
+    
+    /* display: flex;
+    float: inline-end;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    margin-right: -280px;
+    margin-bottom: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -400px;
+    height: 20px;
+    width: 200px;
+    justify-content: center; 
+    align-content: end;
+    float: inline-end; */
+}
+
+
+/* .row-1 {
+    display: flex;
+    float: inline-end;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    margin-right: -450px;
+    margin-bottom: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -400px;
+    height: 20px;
+    width: 200px;
+    justify-content: center; 
+    align-content: end;
+    float: inline-end; 
+} */
+
+
+.row-1 {
+    display: flex;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -345px;
+   
+    height: 20px;
+    width: 235px;
+    justify-content: center; 
+}
+.col {
+    margin: 200px;
+    block-size: 500px;
+    margin-right: 5px;
+    
+    width: 5px;
+    margin-top: -300px;
+    /* padding: ; */
+    height: 155px;
+    padding-left: 250px;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    border-radius: 10px;
+    width:-8px;
+}
+
+.col-1 {
+    margin-left: 890px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    border-radius: 10px;
+    width: 240px;
+    height: 250px;
+    padding: 10;
+    
+}
+
+.row-2 {
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    border-radius: 10px;
+    width: 240px;
+    margin-left: 890px;
+    margin-top: -70px;
+    height: 200px;
+    justify-content: baseline;
+    
+    
+}
+
+
+h6 {
+    padding-right: 50px;
+    
+
+}
+
+.friend-pics {
+    border-radius: 50%;
+    border: 5px;
+    border-radius: 50%;
+    margin-inline-start: 40;
+    border:5px solid darkgray;
+    margin-top: -120px;                     
+    align-items: center;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+}
+
+.symbols {
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+
+.table {
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+}
+
+.connection-request {
+    border:5px solid lightgray;
+    border-color:5px darksalmon;
+    background-color: darksalmon;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin-top: -155px;
+    height: 25px;
+    margin-right: -250px;
+}
